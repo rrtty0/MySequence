@@ -1,2 +1,2 @@
-# Lab_5
- 
+# Sequence
+ Implementing a sequence using an indexed AVL-Tree
