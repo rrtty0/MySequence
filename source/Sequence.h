@@ -1,4 +1,10 @@
 #pragma once
+#include <stdio.h>
+#include <tchar.h>
+#include <vector>
+#include <iostream>
+using namespace std;
+
 
 class Sequence
 {
@@ -173,8 +179,8 @@ private:
 
 
 public:
-	//Sequence();                                 //constructor with out arguments
-	Sequence(int v1, ...);                      //constructor with elements
+	//Sequence();                                //constructor with out arguments
+	Sequence(vector<int> arr);                  //constructor with elements
 	Sequence(const Sequence&);                  //constructor of copy
 	Sequence(Sequence&&);                       //constructor with move
 	Sequence& operator=(const Sequence&);       //= with copy
@@ -185,10 +191,10 @@ public:
 	void remove_back(int);             //delete last(value) from Sequence
 	bool contains(int);                //check availability of element in Sequence
 	void show();                       //print Sequence on screen
-	void EXCL(const Sequence&);        //
-	void CHANGE(const Sequence&, int); //
-	void CONCAT(const Sequence&);      //
-	void MERGE(const Sequence&);       //
+	void EXCL(const Sequence&);        //delete equal part of this-sequence on argument-sequence
+	void CHANGE(const Sequence&, int); //change this-sequence at index on argument-sequence
+	void CONCAT(const Sequence&);      //concatenation argument-sequence to this-sequence
+	void MERGE(const Sequence&);       //CONCAT + sort of result
 	void sort();                       //sort elements of Sequence
 	void add(int, int);                //add value element to Sequence to index
 	int getSize();                     //return number of elements at Sequence

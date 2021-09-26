@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include "Sequence.h"
 
 
@@ -7,14 +6,10 @@
 }*/
 
 
-Sequence::Sequence(int v1, ...)
+Sequence::Sequence(vector<int> arr)
 {
-	int *ptr = &v1;
-	while (*ptr != -1)
-	{
-		push_back(*ptr);
-		++ptr;
-	}
+	for (int i = 0; i < arr.size(); ++i)
+		push_back(arr[i]);
 }
 
 
