@@ -1,4 +1,0 @@
-﻿  Sequence.cpp
-d:\mi\documents\vs_2017_projects\aisd_4sem\lab_5\lab_5\sequence.cpp(487): warning C4018: <: несоответствие типов со знаком и без знака
-d:\mi\documents\vs_2017_projects\aisd_4sem\lab_5\lab_5\sequence.cpp(271): warning C4715: Sequence::contains: значение возвращается не при всех путях выполнения
-  Lab_5.vcxproj -> D:\mi\Documents\VS_2017_PROJECTS\AiSD_4sem\Lab_5\Debug\Lab_5.exe
