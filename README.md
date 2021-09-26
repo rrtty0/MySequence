@@ -7,7 +7,7 @@
 - [Installation](#anc1)
 - [Usage](#anc2)
 - [Contribution](#anc3)
-- [How It Work](#anc#4)
+- [How It Work](#anc4)
 - [License](#anc5)
 
 ---
